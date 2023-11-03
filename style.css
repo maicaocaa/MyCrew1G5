@@ -1,0 +1,147 @@
+/*
+colores de web  
+pastel blue #B0d0D3
+english lavender #C08487
+ligth salmon pink #F7AF9D
+
+variantes claras
+pastel blue #C3EBEE
+english lavender #EFAEC3
+ligth salmon pink #FCD1C6
+
+variantes ocuras
+pastel blue #72A6AB
+english lavender #AB7578
+ligth salmon pink #C38272
+
+Texto
+*/
+
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*HEADER*/
+/*copiado de https://keepcoding.io/blog/como-hacer-un-menu-de-navegacion-en-html/
+==========================================================*/
+header {
+    background-color: rgb(255, 239, 239);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+  }
+
+            .logo {
+                display: inline-block;
+                vertical-align: middle;
+                width: 100px;
+                background-color: antiquewhite;
+                height: 30px;
+                padding:20px;
+            }
+
+  .menu {
+    float: right;
+    margin-right: 20px;
+  }
+
+  .menu ul {
+    list-style: none;
+    overflow: hidden; 
+  }
+
+  .menu ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+  }
+  
+  .menu ul li a {
+    display: block; 
+    padding: 20px;
+    color:#C08487;
+    text-decoration: none;
+  }
+
+
+  nav ul li:hover {
+    background:#FCD1C6
+  }
+
+/*=================
+/*HEADER*/
+/*=========================================*/
+
+/*=================
+/*main*/
+/*=========================================*/
+
+.banner {
+  background-color: lightblue;
+  height: 150px;
+  margin:auto;
+  padding:20px;
+  position: relative;
+  top: 70px;
+}
+
+img {
+  height: 100px;
+}
+
+.tools {
+  background-color: lightblue;
+  height: 150px;
+  left: 50px;
+  position: relative;
+  top: 100px;
+  width: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*=================
+/*main*/
+/*=========================================*/
+
+
+
+/*=================
+/*FOOTER*/
+/*=========================================*/
+/*
+footer {
+  color: white;
+  background-color: #1A1A1A;
+  width: 100%;
+  height: 81px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.container {
+  padding:12px;
+}
+
+/*=================
+/*FOOTER*/
+/*=========================================*/
+
+footer {
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:30px;
+  width:100%;
+  background:#FCD1C6
+}
