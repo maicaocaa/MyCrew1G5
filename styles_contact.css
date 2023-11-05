@@ -1,0 +1,252 @@
+/*
+colores de web  
+pastel blue #B0d0D3
+english lavender #C08487
+ligth salmon pink #F7AF9D
+
+variantes claras
+pastel blue #C3EBEE
+english lavender #EFAEC3
+ligth salmon pink #FCD1C6
+
+variantes ocuras
+pastel blue #72A6AB
+english lavender #AB7578
+ligth salmon pink #C38272
+
+Inria Sans - Títulos
+Montserrat - Texto
+*/
+
+
+
+
+
+body{
+    font-family: Montserrat;
+}
+
+/*HEADER*/
+/*copiado de https://keepcoding.io/blog/como-hacer-un-menu-de-navegacion-en-html/
+==========================================================*/
+.team_name {
+    background-color: pink;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    box-shadow: 10px 10px 50px #FCD1C6;
+    left:0px;
+    top:0px;
+    text-align: center;
+    font-family: Inria Sans;
+}
+
+.menu_bar {
+    /*background-color: rgb(255, 239, 239);*/
+    width: 100%;
+    font-size: larger;
+    position: fixed;
+    z-index: 100;
+    /*box-shadow: 10px 10px 50px #FCD1C6;*/
+    left:0px;
+    top:16px;
+  }
+
+           /* .logo {
+                display: inline-block;
+                vertical-align: middle;
+              /*
+                width: 100px;
+                background-color: antiquewhite;
+                height: 30px;  
+              
+                padding:10px;
+            }*/
+
+            .logo_img  {
+                display:flex;
+                align-content:flex-start;
+                float:left;
+                height: 100px;
+                border: green solid;
+                padding:10px;
+              }
+
+  .menu {
+    float: right;
+    margin-right: 20px;
+  }
+
+  .menu ul {
+    list-style: none;
+    overflow: hidden; 
+  }
+
+  .menu ul li {
+    float: left;
+    font-family: Inria Sans;
+    font-size: 14px;
+  }
+  
+  .menu ul li a {
+    display: block; 
+    padding: 20px;
+    color:#C08487;
+    text-decoration: none;
+  }
+
+
+  nav ul li:hover {
+    background:#FCD1C6;
+  }
+
+/*=================
+/*HEADER*/
+/*=========================================*/
+
+/*=================
+/*MAIN*/
+/*=========================================*/
+
+
+
+
+
+
+
+main {
+  /*padding:50px;*/
+  display: flex; 
+  flex-direction: column;
+}
+
+
+.banner {
+  background-color: lightblue;
+  height: 200px;
+  margin:auto;
+  position: absolute;
+  top: 150px;
+  width:100%;
+}
+
+
+.banner_img {
+  height: 200px;
+  width:80%;
+}
+
+.title_contacto {
+   font-family: Inria Sans;
+   color: #B0d0D3;
+    margin:auto;
+    font-size: 250%;
+    position: absolute;
+    top: 130px;
+    width:100%;
+    text-align: center;
+}
+
+.info_contacto {
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+    font-family: Inria Sans;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    text-align:left;
+    background-color:#C08487;
+    width: 50%;
+    color:white;
+  font-size: larger;
+    border-radius: 15px;
+    box-shadow: 10px 10px 50px #FCD1C6;
+
+}
+
+.icon {
+height: 50px;
+width:50px;
+margin-left: 50px;
+display:inline-block;
+vertical-align:middle;
+padding-inline-end: 40px;
+
+}
+
+
+.icon_text {
+  display:inline-block;
+vertical-align:top;
+}
+
+
+
+
+
+
+/*.fotos {
+  height: 200px;
+  width:80%;
+  border: solid blue;
+}*/
+
+.texto_fotos {
+  border: solid pink;
+  width:100%;
+  margin-top: 300px;
+}
+
+
+
+
+
+
+
+/*=================
+/*MAIN*/
+/*=========================================*/
+
+
+
+/*=================
+/*FOOTER copiado de https://es.stackoverflow.com/questions/306718/alinear-icono-y-texto*/
+/*=========================================*/
+
+
+footer {
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height: 40px;
+  width:100%;
+  background:#FCD1C6;
+  box-shadow: 10px 10px 50px #FCD1C6;
+  padding:10px;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+    color: #C08487;
+    display:inline-block;
+    vertical-align:top;
+  }
+  
+  .copyright_text {
+    clear: left;
+    text-align: right;
+    vertical-align: middle;
+   
+  }
+
+
+/*=================
+/*FOOTER*/
+/*=========================================*/
