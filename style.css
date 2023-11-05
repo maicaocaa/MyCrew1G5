@@ -14,94 +14,129 @@ pastel blue #72A6AB
 english lavender #AB7578
 ligth salmon pink #C38272
 
-Texto
+Inria Sans - Títulos
+Montserrat - Texto
 */
 
 
+
+
+
 body{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: Montserrat;
 }
 
 /*HEADER*/
 /*copiado de https://keepcoding.io/blog/como-hacer-un-menu-de-navegacion-en-html/
 ==========================================================*/
-header {
-    background-color: rgb(255, 239, 239);
-    width: 100%;
-    position: fixed;
-    z-index: 100;
-  }
-
-            .logo {
-                display: inline-block;
-                vertical-align: middle;
-                width: 100px;
-                background-color: antiquewhite;
-                height: 30px;
-                padding:20px;
-            }
-
-  .menu {
-    float: right;
-    margin-right: 20px;
-  }
-
-  .menu ul {
-    list-style: none;
-    overflow: hidden; 
-  }
-
-  .menu ul li {
-    float: left;
-    font-family: Arial, sans-serif;
-    font-size: 12px;
-  }
+.team_name {
+  background-color: pink;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  box-shadow: 10px 10px 50px #FCD1C6;
+  left:0px;
+  top:0px;
+  text-align: center;
+  font-family: Inria Sans;
   
-  .menu ul li a {
-    display: block; 
-    padding: 20px;
-    color:#C08487;
-    text-decoration: none;
-  }
+}
+
+.menu_bar {
+  background-color: rgb(255, 239, 239);
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  box-shadow: 10px 10px 50px #FCD1C6;
+  /*left: 0px;*/
+  top: 16px;
+border: orange solid;
+}
 
 
-  nav ul li:hover {
-    background:#FCD1C6
-  }
+.logo_img  {
+  display:flex;
+  align-content:flex-start;
+  float:left;
+  height: 100px;
+  border: green solid;
+  padding:10px;
+}
 
-/*=================
+.menu {
+  float: right;
+  margin-right: 20px;
+}
+
+.menu ul {
+  list-style: none;
+  overflow: hidden; 
+}
+
+.menu ul li {
+  float: left;
+  font-family: Inria Sans;
+  font-size: 14px;
+}
+
+.menu ul li a {
+  display: block; 
+  padding: 20px;
+  color:#C08487;
+  text-decoration: none;
+}
+
+
+nav ul li:hover {
+  background:#FCD1C6;
+}
+
+/*===========================================
 /*HEADER*/
 /*=========================================*/
 
 /*=================
-/*main*/
+/*MAIN*/
 /*=========================================*/
 
+
+main {
+display: flex; 
+flex-direction: column;
+border: solid red;
+
+}
+
 .banner {
-  background-color: lightblue;
-  height: 150px;
+background-color: lightblue;
+height: 200px;
+position: absolute;
+top: 150px;
+width:100%;
+border: solid yellow;
+text-align: center;
+}
+
+.banner_img {
   margin:auto;
-  padding:20px;
-  position: relative;
-  top: 70px;
 }
 
-img {
-  height: 100px;
-}
+.banner_img {
+height: 200px;
 
-.tools {
-  background-color: lightblue;
-  height: 150px;
-  left: 50px;
-  position: relative;
-  top: 100px;
-  width: 150px;
 }
 
 
 
+.text_fotos {
+border: solid pink;
+width:80%;
+margin:auto;
+margin-top: 350px;
+padding: 30px;
+padding-bottom: 100px;
 
+}
 
 
 
@@ -110,7 +145,7 @@ img {
 
 
 /*=================
-/*main*/
+/*MAIN*/
 /*=========================================*/
 
 
@@ -118,31 +153,43 @@ img {
 /*=================
 /*FOOTER*/
 /*=========================================*/
-/*
-footer {
-  color: white;
-  background-color: #1A1A1A;
-  width: 100%;
-  height: 81px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
-
-.container {
-  padding:12px;
-}
-
 
 
 footer {
-  position:fixed;
-  left:0px;
-  bottom:0px;
-  height:30px;
-  width:100%;
-  background:#FCD1C6
+position:fixed;
+left:0px;
+bottom:0px;
+height: 30px;
+width:100%;
+background:#FCD1C6;
+box-shadow: 10px 10px 50px #FCD1C6;
+padding: 10px;
+font-family: Inria Sans;
 }
+
+.material-symbols-outlined {
+font-variation-settings:
+'FILL' 0,
+'wght' 400,
+'GRAD' 0,
+'opsz' 24;
+color: #C08487;
+display:inline-block;
+vertical-align:top;
+}
+
+.copyright_text {
+clear: left;
+text-align: right;
+vertical-align: middle;
+
+}
+
+
+
+
+
+
 
 /*=================
 /*FOOTER*/
