@@ -201,6 +201,19 @@ padding: 10px;
 font-family: Inria Sans;
 }
 
+footer {
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height: 40px;
+  width:100%;
+  background:#FCD1C6;
+  box-shadow: 10px 10px 50px #FCD1C6;
+  padding: 10px;
+  font-family: inria sans;
+}
+
+
 .material-symbols-outlined {
 font-variation-settings:
 'FILL' 0,
@@ -216,6 +229,7 @@ vertical-align:top;
 clear: left;
 text-align: right;
 vertical-align: middle;
+color: #C08487;
 
 }
 
