@@ -84,6 +84,13 @@ border: orange solid;
   padding: 20px;
   color:#C08487;
   text-decoration: none;
+  color: var(--Lavanda, #C08497);
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
 }
 
 
@@ -100,44 +107,45 @@ nav ul li:hover {
 /*=========================================*/
 
 
-        main {
+    main {
         display: flex; 
         flex-direction: column;
         border: solid red;
-
-        }
-
-        .banner {
-        background-color: lightblue;
+    }
+    .banner {
         height: 200px;
         position: absolute;
         top: 150px;
         width:100%;
         border: solid yellow;
         text-align: center;
-        }
-
-        .banner_img {
+    }
+    .banner_img {
           margin:auto;
+    }
+    .banner_img {
+        height: 200px;
+      }
+
+
+ .text_fotos {
+        border: solid pink;
+        width:80%;
+        margin:auto;
+        margin-top: 350px;
+        padding: 30px;
+        padding-bottom: 100px;
+        display:flex;
+        flex-direction: row;
+        flex-flow: wrap;
         }
 
-        .banner_img {
-        height: 200px;
-
-}
-
-.text_fotos {
-border: solid pink;
-width:80%;
-margin:auto;
-margin-top: 350px;
-padding: 30px;
-padding-bottom: 100px;
-}
-
-
-div.circle {
-  padding: 30px;
+.staff {
+  background-color:red;
+  display:flex;
+  flex-flow: wrap;
+  justify-content: center;
+  margin:auto;
 }
 
 .circle {
@@ -146,34 +154,31 @@ div.circle {
   padding: 30px;
 }
 
+.descrip {
+    background-color: white;
+    width: 200px;
+    height: 150px;
+    flex-shrink: 0;
+    text-align: center;
+    margin:auto;
+  }
 
 
-.fotos {
-   background-color:red;
-   display:flex;
-   flex-flow: wrap;
-  justify-content: center;
- 
- 
-}
+  .name {
+    color: var(--Lavanda, #C08497);
+    text-align: center;
+    font-family: Inria Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
 
-/*_______ 1 _________*/
+  .info {
+    font-family: Inria Sans;
+  }
 
-    .foto1 {
-      background-color:black;
-    }
-
-
-    .descrip1 {
-        background-color: white;
-        width: 200px;
-        height: 150px;
-        flex-shrink: 0;
-        text-align: center;
-        margin:auto;
-    }
-
-
+  /*_______ 1 _________*/
 
 
 
@@ -181,6 +186,17 @@ div.circle {
 /*=================
 /*MAIN*/
 /*=========================================*/
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -201,19 +217,6 @@ padding: 10px;
 font-family: Inria Sans;
 }
 
-footer {
-  position:fixed;
-  left:0px;
-  bottom:0px;
-  height: 40px;
-  width:100%;
-  background:#FCD1C6;
-  box-shadow: 10px 10px 50px #FCD1C6;
-  padding: 10px;
-  font-family: inria sans;
-}
-
-
 .material-symbols-outlined {
 font-variation-settings:
 'FILL' 0,
@@ -232,11 +235,6 @@ vertical-align: middle;
 color: #C08487;
 
 }
-
-
-
-
-
 
 
 /*=================
