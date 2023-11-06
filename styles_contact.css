@@ -19,100 +19,82 @@ Montserrat - Texto
 */
 
 
-
-
-
 body{
     font-family: Montserrat;
 }
 
-/*HEADER*/
-/*copiado de https://keepcoding.io/blog/como-hacer-un-menu-de-navegacion-en-html/
-==========================================================*/
+/* =========== HEADER ===========*/ 
 .team_name {
-    background-color: pink;
-    width: 100%;
-    position: fixed;
-    z-index: 100;
-    box-shadow: 10px 10px 50px #FCD1C6;
-    left:0px;
-    top:0px;
-    text-align: center;
-    font-family: Inria Sans;
+  background-color: pink;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  box-shadow: 10px 10px 50px #FCD1C6;
+  left:0px;
+  top:0px;
+  text-align: center;
+  font-family: Inria Sans;
+}
+
+header{
+  border: purple solid;
 }
 
 .menu_bar {
-    /*background-color: rgb(255, 239, 239);*/
-    width: 100%;
-    font-size: larger;
-    position: fixed;
-    z-index: 100;
-    /*box-shadow: 10px 10px 50px #FCD1C6;*/
-    left:0px;
-    top:16px;
-  }
+  width: 100%;
+  font-size: larger;
+  position: fixed;
+  z-index: 100;
+  left:0px;
+  top:16px;
+  background-color: white;
+  height: 90px;
+}
 
-           /* .logo {
-                display: inline-block;
-                vertical-align: middle;
-              /*
-                width: 100px;
-                background-color: antiquewhite;
-                height: 30px;  
-              
-                padding:10px;
-            }*/
 
-            .logo_img  {
-                display:flex;
-                align-content:flex-start;
-                float:left;
-                height: 100px;
-                border: green solid;
-                padding:10px;
-              }
+/* margin pone el logo es su lugar */
+.logo_img  {
+  display:flex;
+  align-content:flex-start;
+  float:left;
+  height: 30px;
+  margin: 30px 0px 0px 20px;  
+}
+ 
+ .menu {
+  margin-right: 20px;
+  height: 90px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
 
-  .menu {
-    float: right;
-    margin-right: 20px;
-  }
+.menu ul {
+  list-style: none;
+  overflow: hidden; 
+  float: right;
+}
 
-  .menu ul {
-    list-style: none;
-    overflow: hidden; 
-  }
-
-  .menu ul li {
-    float: left;
-    font-family: Inria Sans;
-    font-size: 14px;
-  }
+.menu ul li {
+  float: left;
+  font-family: Inria Sans;
+  font-size: 16px;
+}
   
-  .menu ul li a {
-    display: block; 
-    padding: 20px;
-    color:#C08487;
-    text-decoration: none;
-  }
+.menu ul li a {
+  display: block; 
+  padding: 20px 20px 20px 20px;
+  color:#C08487;
+  text-decoration: none;
+}
+
+div ul li:hover {
+  background:#FCD1C6;
+}
+/* =========== HEADER ===========*/ 
 
 
-  nav ul li:hover {
-    background:#FCD1C6;
-  }
-
-/*=================
-/*HEADER*/
-/*=========================================*/
-
-/*=================
-/*MAIN*/
-/*=========================================*/
-
-
-
-
-
-
+/* =========== MAIN ===========*/
 
 main {
   /*padding:50px;*/
@@ -120,20 +102,19 @@ main {
   flex-direction: column;
 }
 
-
 .banner {
-  background-color: lightblue;
-  height: 200px;
-  margin:auto;
+  height: 150px;
   position: absolute;
-  top: 150px;
+  top: 90px;
   width:100%;
+  text-align: center;
+  background-color: #C08497;
 }
 
-
 .banner_img {
-  height: 200px;
-  width:80%;
+  height: 150px;
+  position: absolute;
+  left: 0px;
 }
 
 .title_contacto {
@@ -142,10 +123,11 @@ main {
     margin:auto;
     font-size: 250%;
     position: absolute;
-    top: 130px;
+    top: 400px;
     width:100%;
     text-align: center;
 }
+
 
 .info_contacto {
   display:flex;
@@ -164,8 +146,8 @@ main {
   font-size: larger;
     border-radius: 15px;
     box-shadow: 10px 10px 50px #FCD1C6;
-
 }
+
 
 .icon {
 height: 50px;
@@ -174,7 +156,6 @@ margin-left: 50px;
 display:inline-block;
 vertical-align:middle;
 padding-inline-end: 40px;
-
 }
 
 
@@ -202,21 +183,10 @@ vertical-align:top;
 
 
 
+/* =========== MAIN ===========*/
 
 
-
-
-/*=================
-/*MAIN*/
-/*=========================================*/
-
-
-
-/*=================
-/*FOOTER copiado de https://es.stackoverflow.com/questions/306718/alinear-icono-y-texto*/
-/*=========================================*/
-
-
+/* =========== FOOTER ===========*/
 footer {
   position:fixed;
   left:0px;
@@ -243,10 +213,6 @@ footer {
     clear: left;
     text-align: right;
     vertical-align: middle;
-   
   }
 
-
-/*=================
-/*FOOTER*/
-/*=========================================*/
+/* =========== FOOTER ===========*/
