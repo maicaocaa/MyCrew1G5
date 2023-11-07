@@ -112,10 +112,9 @@ div ul li:hover {
         width:100%;
         text-align: center;
         background-color: #C08497;
-        
     }
  
-    .banner_img {
+  .banner_img {
         height: 150px;
         position: absolute;
         left: 0px;
@@ -171,6 +170,10 @@ div ul li:hover {
     font-family: Inria Sans;
   }
 
+  .foto {
+    opacity:0;
+  }
+
   /*_______ HOVER 1_________*/
 
 .staff .perfil .letter {
@@ -192,13 +195,17 @@ div ul li:hover {
   background-color:white;
 }
 
-.staff .perfil:hover .descrip{
+.staff .perfil:hover .descrip {
   opacity:1;
   transition:all 0.15s ease-in-out;
 }
 
 .letter {
   position:absolute;
+}
+
+.staff .perfil:hover .foto {
+  opacity:1;
 }
 
   /*_______ HOVER 1_________*/
